@@ -10,7 +10,6 @@ const LoginLogoutButton = () => {
 
   const handleLogout = () => {
     setAuthToken(null);
-    history.push("/login");
   };
 
   const handleRedirect = () => {
