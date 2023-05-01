@@ -23,8 +23,11 @@ nodemon server
 ```
 
 Make sure that your mongod is running in the background as well
+```
+mongod --dbpath=??     <--pick a folder such as ~/DB
+```
+In a seperate git bash
 
-In a seperate git bash 
 To install and run client
 
 ```
